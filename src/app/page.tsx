@@ -58,7 +58,7 @@ const Page: React.FC = () => {
       <p className="mt-4 text-lg text-center">Nuestra misión es fomentar el crecimiento económico y social de la región, ofreciendo soluciones innovadoras y servicios de calidad para nuestros socios y la comunidad.</p>
       <button
         className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        onClick={() => router.push('/cartelera')}
+        onClick={() => router.push('/ingresar')}
       >
         Ingresar a la WebApp
       </button>
