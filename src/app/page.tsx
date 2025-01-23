@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import InfoData from '../utils/databse/InfoData.json';
 
 type BeforeInstallPromptEvent = Event & {
   prompt: () => void;
@@ -46,13 +47,7 @@ const Page: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className='flex justify-center'>
-        <Image
-          src="/logos.png"
-          alt="Logo"
-          width={200}
-          height={200}
-          className="object-cover mx-auto rounded-full mb-4"
-        />
+      <Image src={InfoData.header.logoLeft} alt="Logo Izquierdo" width={150} height={150} className="object-cover mx-auto rounded-full mb-4" />
       </div>
       <h1 className="text-4xl font-bold text-center">Bienvenido a la Corporación Mercado Popular Rosa Blanca, tu aliado para el desarrollo empresarial y comunitario</h1>
       <p className="mt-4 text-lg text-center">Nuestra misión es fomentar el crecimiento económico y social de la región, ofreciendo soluciones innovadoras y servicios de calidad para nuestros socios y la comunidad.</p>
