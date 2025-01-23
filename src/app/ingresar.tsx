@@ -12,7 +12,7 @@ const Ingresar: React.FC = () => {
           alt="Logo"
           width={200}
           height={200}
-          className="object-cover mx-auto rounded-full bg-white border-2 border-gray-200 mb-4"
+          className="object-cover mx-auto rounded-full mb-4"
         />
       </div>
       <h1 className="text-4xl font-bold text-center">Página de Ingreso</h1>

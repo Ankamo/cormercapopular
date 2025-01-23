@@ -51,7 +51,7 @@ const Page: React.FC = () => {
           alt="Logo"
           width={200}
           height={200}
-          className="object-cover mx-auto rounded-full bg-white border-2 border-gray-200 mb-4"
+          className="object-cover mx-auto rounded-full mb-4"
         />
       </div>
       <h1 className="text-4xl font-bold text-center">Bienvenido a la Corporación Mercado Popular Rosa Blanca, tu aliado para el desarrollo empresarial y comunitario</h1>
