@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aquí puedes agregar tus estilos personalizados */
+
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco para contraste */
+  font-family: 'Arial', sans-serif; /* Fuente moderna */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* Encabezados en blanco */
+}
+
+a {
+  color: #bb86fc; /* Color de enlace atractivo */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, footer {
+  background-color: #1e1e1e; /* Fondo oscuro para header y footer */
+  padding: 10px;
+}
