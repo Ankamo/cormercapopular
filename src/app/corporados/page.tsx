@@ -30,75 +30,114 @@ const CorporadosPage = () => {
             </section>
 
             <section className="mb-6">
-                <h2 className="text-xl font-semibold mb-4">Junta Directiva</h2>
-                <p className="mb-4">
+                <h2 className="text-xl font-semibold mb-4 text-center">Junta Directiva</h2>
+                <p className="mb-4 text-center">
                     La Junta Directiva está compuesta por miembros elegidos por la Asamblea General.
                     Su función principal es supervisar la gestión del Gerente y asegurar que la organización
                     cumpla con sus objetivos estratégicos.
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {/* Presidente */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Presidente" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Presidente</h3>
-                        <p className="text-gray-600">Nombre del Presidente</p>
+                <div className="flex flex-col items-center gap-8">
+                    {/* Primera fila */}
+                    <div className="flex flex-wrap justify-center gap-6">
+                        {/* Presidente */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Presidente" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Presidente</h3>
+                            <p className="text-gray-600">Nombre del Presidente</p>
+                        </div>
+                        {/* Vicepresidente */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Vicepresidente" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Vicepresidente</h3>
+                            <p className="text-gray-600">Nombre del Vicepresidente</p>
+                        </div>
+                        {/* Tesorero */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Tesorero" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Tesorero</h3>
+                            <p className="text-gray-600">Nombre del Tesorero</p>
+                        </div>
+                        {/* Secretario */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Secretario" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Secretario</h3>
+                            <p className="text-gray-600">Nombre del Secretario</p>
+                        </div>
                     </div>
-                    {/* Vicepresidente */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Vicepresidente" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Vicepresidente</h3>
-                        <p className="text-gray-600">Nombre del Vicepresidente</p>
-                    </div>
-                    {/* Tesorero */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Tesorero" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Tesorero</h3>
-                        <p className="text-gray-600">Nombre del Tesorero</p>
-                    </div>
-                    {/* Secretario */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Secretario" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Secretario</h3>
-                        <p className="text-gray-600">Nombre del Secretario</p>
-                    </div>
-                    {/* Vocal 1 */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Vocal 1" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Vocal 1</h3>
-                        <p className="text-gray-600">Nombre del Vocal 1</p>
-                    </div>
-                    {/* Vocal 2 */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Vocal 2" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Vocal 2</h3>
-                        <p className="text-gray-600">Nombre del Vocal 2</p>
-                    </div>
-                    {/* Vocal 3 */}
-                    <div className="text-center">
-                        <img src="/logo.png" alt="Vocal 3" className="w-32 h-32 rounded-full mx-auto object-cover" />
-                        <h3 className="text-lg font-semibold mt-2">Vocal 3</h3>
-                        <p className="text-gray-600">Nombre del Vocal 3</p>
+
+                    {/* Segunda fila */}
+                    <div className="flex flex-wrap justify-center gap-6">
+                        {/* Delegado 1 */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Delegado 1" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Delegado 1</h3>
+                            <p className="text-gray-600">Nombre del Delegado 1</p>
+                        </div>
+                        {/* Delegado 2 */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Delegado 2" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Delegado 2</h3>
+                            <p className="text-gray-600">Nombre del Delegado 2</p>
+                        </div>
+                        {/* Delegado 3 */}
+                        <div className="text-center">
+                            <img src="/logo.png" alt="Delegado 3" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                            <h3 className="text-lg font-semibold mt-2">Delegado 3</h3>
+                            <p className="text-gray-600">Nombre del Delegado 3</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section className="mb-6">
-                <h2 className="text-xl font-semibold">Gerente</h2>
-                <p>
+                <h2 className="text-xl font-semibold mb-4 text-center">Gerente</h2>
+                <p className="mb-4 text-center">
                     El Gerente es responsable de la administración diaria de la organización.
                     Se encarga de implementar las decisiones de la Junta Directiva y gestionar los recursos
                     de manera eficiente.
                 </p>
+                <div className="flex justify-center">
+                    <div className="text-center">
+                        <img src="/logo.png" alt="Gerente" className="w-32 h-32 rounded-full mx-auto object-cover" />
+                        <h3 className="text-lg font-semibold mt-2">Gerente</h3>
+                        <p className="text-gray-600">Nombre del Gerente</p>
+                    </div>
+                </div>
             </section>
 
             <section className="mb-6">
-                <h2 className="text-xl font-semibold">Organigrama</h2>
-                <p>
-                    El organigrama detalla la estructura organizativa de la empresa, mostrando las
-                    relaciones jerárquicas y funcionales entre los diferentes departamentos y roles.
-                    Esto ayuda a clarificar las responsabilidades y la comunicación dentro de la organización.
+                <h2 className="text-xl font-semibold mb-4 text-center">Organigrama</h2>
+                <p className="mb-4 text-center">
+                    Este organigrama presenta la jerarquía organizativa de nuestra entidad, destacando la Asamblea General de Corporados,
+                    la Junta Directiva y el Gerente como principales figuras.
                 </p>
+
+                {/* Organigrama */}
+                <div className="flex flex-col items-center space-y-8">
+                    {/* Nivel 1: Asamblea General de Corporados */}
+                    <div className="text-center group">
+                        <div className="w-40 h-40 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg font-semibold transition-transform duration-300 transform group-hover:scale-110 shadow-lg">
+                            Asamblea General <br /> de Corporados
+                        </div>
+                    </div>
+
+                    {/* Nivel 2: Junta Directiva */}
+                    <div className="text-center group">
+                        <div className="w-36 h-36 rounded-full bg-green-500 text-white flex items-center justify-center text-lg font-semibold transition-transform duration-300 transform group-hover:scale-110 shadow-lg">
+                            Junta Directiva
+                        </div>
+                    </div>
+
+                    {/* Nivel 3: Gerente */}
+                    <div className="text-center group">
+                        <div className="w-32 h-32 rounded-full bg-yellow-500 text-white flex items-center justify-center text-lg font-semibold transition-transform duration-300 transform group-hover:scale-110 shadow-lg">
+                            Gerente
+                        </div>
+                    </div>
+                </div>
             </section>
+
+
         </div>
     );
 };
