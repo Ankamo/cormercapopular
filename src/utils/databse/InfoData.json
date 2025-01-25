@@ -7,7 +7,7 @@
   },
   "footer": {
     "contactInfo": {
-      "email": "cormercapopular@gmail.com",
+      "email": "corporacionmercapopular@gmail.com",
       "phone": "(304) 347 0984",
       "address": "Diagonal 33 Con Carrera 12 A Esquina.",
       "barrio": "Barrio Rosa Blanca 1er sector",
@@ -15,10 +15,10 @@
     },
     "socialLinks": [
       { "name": "WhatsApp", "url": "https://api.whatsapp.com/send/?phone=573043470984&text&type=phone_number&app_absent=0" },
-      { "name": "Facebook", "url": "https://facebook.com/cormercapopular" },
-      { "name": "Instagram", "url": "https://instagram.com/cormercapopular" },
-      { "name": "Twitter", "url": "https://twitter.com/cormercapopular" },
-      { "name": "Youtube", "url": "https://youtube.com/cormercapopular" }
+      { "name": "Facebook", "url": "https://facebook.com/corporacionmercapopular" },
+      { "name": "Instagram", "url": "https://instagram.com/corporacionmercapopular" },
+      { "name": "Twitter", "url": "https://twitter.com/corporacionmercapopular" },
+      { "name": "Youtube", "url": "https://youtube.com/corporacionmercapopular" }
     ],
     "credits": {
       "devBy": {
@@ -31,7 +31,7 @@
       },
       "corporacion": {
         "name": "Corporacion Mercado Popular Rosa Blanca",
-        "url": "https://cormercapopular.vercel.app"
+        "url": "https://corporacionmercapopular.vercel.app"
       },
       "Administrador": {
         "name": "Mercado Comunitario Rosa Blanca",

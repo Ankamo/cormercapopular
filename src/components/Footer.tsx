@@ -20,9 +20,9 @@ const Footer = () => {
         <div className='flex-1 text-center'>
           <h3>Créditos</h3>
           <p>Desarrollado por <a href={footerData.footer.credits.devBy.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.devBy.name}</a></p>
-          <p>Propiedad de <a href={footerData.footer.credits.propiedad.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.propiedad.name}</a></p>
-          <p>Esta Corporación administra: <a href={footerData.footer.credits.corporacion.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.corporacion.name}</a></p>
-          <p>&copy; {new Date().getFullYear()}. Todos los derechos reservados.</p>
+          <p>Corporado Unico: <a href={footerData.footer.credits.propiedad.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.propiedad.name}</a></p>
+          <p>Propietaria de: <a href={footerData.footer.credits.Administrador.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.Administrador.name}</a></p>
+          <p>&copy; {new Date().getFullYear()}. <a href={footerData.footer.credits.corporacion.url} target='_blank' rel='noopener noreferrer' className='text-blue-400 hover:text-blue-300'>{footerData.footer.credits.corporacion.name}</a> Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
