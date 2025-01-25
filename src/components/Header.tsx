@@ -35,12 +35,12 @@ const Header = ({ showNav }: HeaderProps) => {
         <nav className="bg-blue-950 text-white">
           <ul className="flex flex-row justify-center items-center space-x-4">
             <li>
-              <a href="#identidad" className="text-white hover:underline">
+              <a href="/identidad" className="text-white hover:underline">
                 Identidad Corporativa
               </a>
             </li>
             <li className="relative group">
-              <a href="#" className="text-white hover:underline">
+              <a href="/normatividad" className="text-white hover:underline">
                 Normatividad
               </a>
               <ul className="absolute left-0 hidden mt-2 bg-gray-800 text-white group-hover:block">
@@ -95,12 +95,12 @@ const Header = ({ showNav }: HeaderProps) => {
               </ul>
             </li>
             <li>
-              <a href="#contactos" className="text-white hover:underline">
+              <a href="/contactos" className="text-white hover:underline">
                 Contactos
               </a>
             </li>
             <li className="relative group">
-              <a href="#" className="text-white hover:underline">
+              <a href="/corporados" className="text-white hover:underline">
                 Corporados
               </a>
               <ul className="absolute left-0 hidden mt-2 bg-gray-800 text-white group-hover:block">
